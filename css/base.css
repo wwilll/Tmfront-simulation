@@ -1,0 +1,42 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,th,td{margin: 0;padding: 0;}
+table{border-collapse: collapse;border-spacing: 0;}
+fieldset,img{border: 0;}
+ol,ul{list-style: none;}
+th{text-align: center;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+sup{vertical-align: text-top;}
+sub{vertical-align: text-bottom;}
+input,textarea,select{font-family: inherit;font-size: inherit;font-weight: inherit;}
+input,textarea,select{*font-size: 100%}
+a{text-decoration: none;}
+i{vertical-align: middle;font-style: normal;}
+body{
+	font: 12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.clearfix:after{
+	display: block;
+	content: ""; 
+	clear: both;
+}
+.ml20{margin-left: 20px;}
+.mr40{margin-right: 40px;}
+.mr1{margin-right: 1px;}
+.mr10{margin-right: 10px;}
+.mb10{margin-bottom: 10px;}
+.ml10{margin-left: 10px;}
+.mlg10{margin: 0 10px;}
+.c-9{color: #999;}
+.c-f{color: white;}
+.c-c0f{color: #cc00ff;}
+.c-d00{color: #d30d0d;}
+.c-191{color: #179510;}
+.c-skyb{color: skyblue;}
+.fl{float: left;}
+.fr{float: right;}
+.w1230{width: 1230px;margin: 0 auto;}
+.dblock{display: block;}
+.dn{display: none;}
+.op0{opacity: 0;}
+.cy{background-color: yellow;}
+.cg{background-color: green;}
