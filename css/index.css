@@ -707,7 +707,7 @@ body{
 /*右侧信息导航栏*/
 #content .c-navbar-info{
 	position: fixed;
-	z-index: 5;
+	z-index: 100;
 	top: 0;
 	right: 0;
 	width: 35px;
@@ -737,7 +737,7 @@ body{
 }
 .c-navbar-info .c-ni-cen a div{
 	display: none;
-	z-index: 10;
+	z-index: 150;
 	position: absolute;
 	right: 60px;
 	top: 0;
