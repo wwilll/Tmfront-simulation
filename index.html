@@ -4405,7 +4405,7 @@
 	</div>
 </div>
 <script src="./js/swiper.min.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="./js/jquery-3.2.1.js">></script>
 <script>
 var mySwiper = new Swiper('.swiper-container', {
 	autoplay: {//可选选项，自动滑动
@@ -4447,37 +4447,6 @@ $(document).ready(function() {
   });
 });
 //右侧导航栏小弹出动画
-// var box = $('div.c-nic-wdsc');
-// $('a.icon-jingxuanshichang').on('click', function () {
-// 	console.log("11");
-//     if (box.hasClass('dn')) {
-//         box.removeClass('dn');
-//         requestAnimationFrame(function(){
-//             box.removeClass('op0');
-//         });
-//     } else {
-//         box.addClass('op0');
-//         box.one('transitionend', function(e) {
-//             box.addClass('dn');
-//         });
-//     }
-// });
-// $('a.icon-jingxuanshichang').hover(
-// 	function(){
-// 		$('div.c-nic-wdsc').css("display","block")
-// 		$('div.c-nic-wdsc').animate({
-// 			right:'35px',
-// 			opacity:'1'
-// 		});
-// 	},
-// 	function(){
-// 		$('div.c-nic-wdsc').animate({
-// 			right:'80px',
-// 			opacity:'0'
-// 		},500,function(){$('div.c-nic-wdsc').css("display","none")});
-		
-// 	}
-// );
 $('.c-ni-cen>a').mouseenter(function(){
 	$(this).children("div").css("display","block");
 	//$("#aa").stop(true,false).animate({...},1000);
