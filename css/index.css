@@ -817,8 +817,8 @@ body{
 	left: 50%;
 	bottom: 200px;
 	margin-left: -670px;
-	width: 36px;
-	height: 221px;
+	width: 0;
+	height: ;
 	font-size: 12px;
 	line-height: 12px;
 	background-color: white;
